@@ -1,0 +1,53 @@
+body{background-color:rgb(234, 234, 234)}
+
+/*--Start Posts Style--*/
+.post{font-size:0.9rem}
+
+.post .colored-bars{margin-bottom: 20px}
+
+.post .colored-bars .bar{
+    width: 25px;
+    margin-right:3px;
+    height: 3px;
+    border-radius: 5px;
+}
+
+.post .post-title{
+    color:blueviolet;
+    font-weight: bold;
+    font-size:clamp(0.95rem, 2.5vw, 1.05rem);
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.post .post-desc{font-size: clamp(0.7rem, 1.5vw, 0.85rem)}
+
+.post .post-writer{font-size:clamp(0.6rem, 1vw, 0.7rem)}
+
+.post .post-writer span{font-weight: 500}
+/*--End Posts Style--*/
+
+/*--Start Form Style--*/
+.form-container label{font-weight: 500; margin-bottom: 10px; font-size: clamp(0.8rem, 4.5vw, 1rem)}
+
+.form-container input{
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 10px 15px;
+    font-size: clamp(0.8rem, 3.5vw, 0.9rem);
+    margin-right: 40px;
+}
+
+.form-container input:focus{
+    outline:1px solid blueviolet;
+}
+
+@media screen and (max-width:1200px){
+    .form-container{
+        background-color:transparent !important;
+        box-shadow: none !important;
+    }
+}
+/*--End Form Style--*/

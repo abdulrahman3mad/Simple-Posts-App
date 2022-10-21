@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Task 8</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-sm-6 col-10 pl-4">
+            <div class="form-container shadow-sm bg-white p-xl-4 mt-5 ml-2">
+              <form action="" id="posts-form" class="d-xl-block">
+                <div class="input-container mb-4">
+                  <!--Post Title Input-->
+                  <label for="post-title" class="d-block d-xl-inline-block">
+                    Title
+                  </label>
+                  <input
+                    type="text"
+                    id="post-title-input"
+                    class="post-title"
+                    name="post-title"
+                    placeholder="Who is the murder?"
+                  />
+                </div>
+
+                <div class="input-container mb-4">
+                  <!--Post Writer Input-->
+                  <label for="post-writer" class="d-block d-xl-inline-block"
+                    >User name</label
+                  >
+                  <input
+                    type="text"
+                    id="post-writer-input"
+                    class="post-writer"
+                    name="post-writer"
+                    placeholder="bob emad"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-xl-9">
+            <section class="posts mt-5 px-3 mr-3" id="posts">
+              <div class="row">
+                <!--Posts-->
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/jquery.slim.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="js/api.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
